@@ -1,0 +1,144 @@
+/* إعدادات عامة */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+  direction: rtl;
+  background-image: url('3984411854161e35dfd629b22fa2755d.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* طبقة شفافية فوق الخلفية */
+.background-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* الحاوية الرئيسية */
+.container {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+/* شعار Google */
+.logo {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* شريط البحث */
+.search-bar {
+  width: 60%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+/* اختصارات */
+.shortcuts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.shortcut {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shortcut:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* الرسالة المنبثقة */
+.popup {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  max-width: 300px;
+}body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-image: url('3984411854161e35dfd629b22fa2755d.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  direction: rtl;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+.shortcuts {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.shortcuts div {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shortcuts div:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.popup {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  max-width: 300px;
+  margin: 0 auto;
+}
